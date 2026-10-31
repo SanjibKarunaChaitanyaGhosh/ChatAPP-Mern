@@ -20,6 +20,8 @@ app.get("/api/chat/:id", (req, res) => {
     const chat = chats.find((c) => c._id === req.params.id)
     res.send(chat)
 })
+
+
 app.listen(port, () => {
     console.log(`Server is running on PORT ${port} .............`)
 })

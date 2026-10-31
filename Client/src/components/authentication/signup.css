@@ -1,0 +1,141 @@
+.signup-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  padding: 30px 15px;
+}
+
+.signup-container {
+  width: 100%;
+  max-width: 450px;
+  background-color: white;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.signup-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.signup-header h1 {
+  margin: 0;
+  font-size: 30px;
+  color: #1e293b;
+}
+
+.signup-header p {
+  color: #64748b;
+  margin-top: 8px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 7px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Password input and eye icon */
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  padding-right: 50px;
+}
+
+.eye-button {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  color: #64748b;
+}
+
+/* Image upload */
+.image-upload {
+  border: 2px dashed #cbd5e1;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #64748b;
+  transition: 0.3s;
+}
+
+.image-upload:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+.image-icon {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.image-input {
+  display: none;
+}
+
+.image-preview {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Signup button */
+.signup-button {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #1d4ed8;
+}
+
+.signup-button:active {
+  transform: scale(0.98);
+}

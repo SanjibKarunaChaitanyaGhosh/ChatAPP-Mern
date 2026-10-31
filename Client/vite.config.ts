@@ -1,9 +1,11 @@
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import { fileURLToPath } from "node:url";
+import tailwindcss from "@tailwindcss/vite";
+
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
 
   resolve: {
     tsconfigPaths: true,

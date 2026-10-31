@@ -36,3 +36,7 @@ https://dev.to/harini_magesh_fa40041cf8d/browserrouter-in-react-49j5
 npm i axios
 ```
 
+## react-Icons
+```bash
+npm install react-icons
+```
