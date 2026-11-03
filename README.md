@@ -40,3 +40,14 @@ npm i axios
 ```bash
 npm install react-icons
 ```
+
+## async-handler
+```bash
+npm i express-async-handler
+```
+
+## create Jwt-Secret-key
+```bash
+openssl rand -base64 32
+```
+
